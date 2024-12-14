@@ -1,0 +1,22 @@
+/* Section background gradients */
+.hero-gradient {
+  @apply bg-gradient-radial from-purple-900/40 via-black to-black;
+}
+
+.section-gradient {
+  @apply bg-black;
+}
+
+/* Card backgrounds with improved contrast */
+.card-bg-light {
+  @apply bg-gray-800/80 backdrop-blur-lg border border-gray-700/50;
+}
+
+.card-bg-dark {
+  @apply bg-gray-800/80 backdrop-blur-lg border border-gray-700/50;
+}
+
+/* Custom gradient utilities */
+.bg-gradient-radial {
+  background-image: radial-gradient(circle at center, var(--tw-gradient-from) 0%, var(--tw-gradient-via) 45%, var(--tw-gradient-to) 100%);
+}

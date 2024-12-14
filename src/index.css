@@ -1,0 +1,86 @@
+@import url('https://rsms.me/inter/inter.css');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './styles/scrollbar.css';
+@import './styles/gradients.css';
+
+@supports (font-variation-settings: normal) {
+  :root { font-family: 'Inter var', sans-serif; }
+}
+
+/* Dark mode text transitions */
+.text-transition {
+  @apply transition-colors duration-300;
+}
+
+/* Base text colors */
+body {
+  @apply text-gray-900 dark:text-white text-transition;
+}
+
+/* Preserve gradient text in dark mode */
+.preserve-color {
+  @apply text-transparent;
+}
+
+/* Light mode specific text colors */
+.light-mode-text {
+  @apply text-black;
+}
+
+.light-mode-text-secondary {
+  @apply text-black;
+}
+
+/* Section text colors */
+.section-text {
+  @apply text-black dark:text-white;
+}
+
+.section-text-secondary {
+  @apply text-black dark:text-gray-300;
+}
+/* Global Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 8px; /* Adjust width */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2d3748; /* Thumb color */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4a5568; /* Hover color */
+}
+
+::-webkit-scrollbar-track {
+  background: #1a202c; /* Track color */
+  border-radius: 10px;
+}
+
+/* Optional: Hide scrollbar while preserving scrollability */
+body {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+}
+
+body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Edge */
+}
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Ensures padding doesn't break the layout */
+}
+html, body {
+  overflow-x: hidden; /* Prevents unwanted horizontal scroll */
+  max-width: 100%; /* Ensures content does not exceed the viewport */
+}
+/* Ensure images and other containers don't exceed screen width */
+/* Fix for width issues caused by 100vw */
+.full-width {
+  width: 100%; /* Use 100% instead of 100vw */
+}
