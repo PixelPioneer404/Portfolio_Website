@@ -81,7 +81,7 @@ A brief overview of my personal and professional interests, including [example i
 Details about my academic background, including degrees, certifications, and relevant coursework.
 
 ### Hobbies
-A showcase of activities I enjoy during my leisure time, such as [hobbies like painting, photography, gaming, etc.].
+A showcase of activities I enjoy during my leisure time, such as [hobbies like painting, cube solving etc.].
 
 ### Projects
 A collection of my professional and personal projects. Each project includes a description, technologies used, and links to live demos or GitHub repositories.
