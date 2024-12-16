@@ -6,7 +6,7 @@ const educationData = [
   {
     level: 'Primary School',
     school: 'Barisha High School',
-    description: 'The place from where I got focus on foundational learning, creativity, and social growth in a supportive environment.',
+    description: 'The place where I gained focus on foundational learning, nurtured creativity, and developed social skills. My primary school provided a supportive environment that shaped my early growth.',
     icon: School,
   },
   {
