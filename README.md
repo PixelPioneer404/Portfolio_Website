@@ -1,4 +1,5 @@
 # Portfolio Website
+
 ![photo_](https://github.com/user-attachments/assets/b77567b3-77fb-4bee-a4a2-048f94679ca3)
 
 Visit my website : https://pixelpioneer404.netlify.app/
@@ -27,7 +28,7 @@ Welcome to my portfolio website repository! This project showcases my personal a
 
 ## About Me
 
-I am Rajbeer Saha, a passionate student/programmer/developer/designer, who enjoys programming, drawing and developing innovative ideas. This portfolio is a reflection of my dedication to continuous learning, growth, and my enthusiasm for sharing knowledge and creativity with the world.
+I am Rajbeer Saha, a passionate student and enthusiastic programmer/developer/designer, who enjoys programming, drawing and developing innovative ideas. This portfolio is a reflection of my dedication to continuous learning, growth, and my enthusiasm for sharing knowledge and creativity with the world.
 
 ---
 
@@ -75,18 +76,23 @@ I am Rajbeer Saha, a passionate student/programmer/developer/designer, who enjoy
 ## Sections of the Website
 
 ### Interests
+
 A brief overview of my personal and professional interests, including [example interests such as technology, music, traveling, etc.].
 
 ### Education
+
 Details about my academic background, including degrees, certifications, and relevant coursework.
 
 ### Hobbies
+
 A showcase of activities I enjoy during my leisure time, such as [hobbies like painting, cube solving etc.].
 
 ### Projects
+
 A collection of my professional and personal projects. Each project includes a description, technologies used, and links to live demos or GitHub repositories.
 
 ### Experience
+
 Information about my professional experience, internships, and volunteer work. This section highlights my achievements and key responsibilities.
 
 ---
@@ -135,4 +141,3 @@ If you have any questions or would like to connect, feel free to reach out:
 - **LinkedIn**: https://www.linkedin.com/in/rajbeer-saha-104a4b32b
 
 Thank you for visiting my portfolio! I hope you enjoy exploring my work!
-
