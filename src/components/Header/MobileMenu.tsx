@@ -1,5 +1,5 @@
-import React from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import React from "react";
+import { motion, AnimatePresence } from "framer-motion";
 
 interface MobileMenuProps {
   isOpen: boolean;
@@ -8,13 +8,18 @@ interface MobileMenuProps {
   scrollToSection: (sectionId: string) => void;
 }
 
-const MobileMenu: React.FC<MobileMenuProps> = ({ isOpen, menuItems, onClose, scrollToSection }) => {
+const MobileMenu: React.FC<MobileMenuProps> = ({
+  isOpen,
+  menuItems,
+  onClose,
+  scrollToSection,
+}) => {
   return (
     <AnimatePresence>
       {isOpen && (
         <motion.div
           initial={{ opacity: 0, height: 0 }}
-          animate={{ opacity: 1, height: 'auto' }}
+          animate={{ opacity: 1, height: "auto" }}
           exit={{ opacity: 0, height: 0 }}
           transition={{ duration: 0.3 }}
           className="mt-4 bg-white/10 dark:bg-gray-900/10 backdrop-blur-lg rounded-[2rem] p-6 border border-white/20 dark:border-gray-700/20"
