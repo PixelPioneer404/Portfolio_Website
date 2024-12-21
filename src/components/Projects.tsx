@@ -22,7 +22,7 @@ const projects = [
     image: 'https://images.unsplash.com/photo-1547658719-da2b51169166?auto=format&fit=crop&q=80&w=500',
     technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Framer Motion', 'EmailJS'],
     githubUrl: 'https://github.com/yourusername/portfolio',
-    demoUrl: 'https://portfolio-demo.netlify.app',
+    demoUrl: 'https://pixelpioneer404.netlify.app',
     longDescription: 'A modern, responsive portfolio website built with React and TypeScript. Features include smooth animations, dark mode support, and a contact form integrated with EmailJS.',
   },
   {
