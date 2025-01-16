@@ -11,7 +11,7 @@ const projects = [
     image: 'https://images.unsplash.com/photo-1611996575749-79a3a250f948?auto=format&fit=crop&q=80&w=500',
     technologies: ['React', 'TypeScript', 'Framer Motion', 'Tailwind CSS'],
     githubUrl: 'https://github.com/yourusername/tictactoe',
-    demoUrl: 'https://tictactoe-demo.netlify.app',
+    demoUrl: 'https://tictactoe.pixelpioneer.tech',
     longDescription: 'A modern implementation of the classic Tic-Tac-Toe game featuring smooth animations, responsive design, and an unbeatable AI opponent. The project showcases clean code architecture and state management practices.',
   },
   {
